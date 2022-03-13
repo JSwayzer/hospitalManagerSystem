@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="543491AE-BB37-5C00-DA2D-E0AE64A83868" name="TB_PCT">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>F40C4489-A7BA-8EFC-CA04-3B2166D925FF</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_PACIENTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pct" id="902713F4-00AF-E9D4-D6B9-76DC528C95C8">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<commentInRDBMS><![CDATA[identificador do paciente]]></commentInRDBMS>
+<generatorID>013F86B2-9BDC-C3D2-D304-C804B1A25FEB</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pct" id="89C6B2E0-CE56-0E84-3A14-B879152CD599">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[nome do paciente]]></comment>
+<commentInRDBMS><![CDATA[nome do paciente]]></commentInRDBMS>
+<generatorID>2ACF46CC-C41D-89F8-BD29-2358FEF94489</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="D3DBB652-6717-4D45-04B6-159993CB4E46">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data de nascimento do paciente]]></comment>
+<commentInRDBMS><![CDATA[data de nascimento do paciente]]></commentInRDBMS>
+<generatorID>82CD4DFC-1426-A754-8469-C2BB387A11C5</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="9BF2200E-FDA5-59CD-A525-6455D73D7BEF">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero de cpd do paciente]]></comment>
+<commentInRDBMS><![CDATA[numero de cpd do paciente]]></commentInRDBMS>
+<generatorID>808FD08B-744B-830F-D21A-324C06F809C0</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="C74F331A-5827-60B6-ECD8-8557C84604CE">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data de cadastro do paciente na unidade]]></comment>
+<commentInRDBMS><![CDATA[data de cadastro do paciente na unidade]]></commentInRDBMS>
+<generatorID>A72F93A0-BFFA-E6CF-CA5D-6EFF3AA1B0DF</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="2BC9DD38-B392-344C-0184-5CF05EECDB51">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data de admissao do paciente na unidade]]></comment>
+<commentInRDBMS><![CDATA[data de admissao do paciente na unidade]]></commentInRDBMS>
+<generatorID>844228DD-2894-4920-B877-079A66738B58</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_prioridade" id="F7EB507E-0A83-46CE-6EC4-CD1087718CFE">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[descricao da prioridade do paciente]]></comment>
+<commentInRDBMS><![CDATA[descricao da prioridade do paciente]]></commentInRDBMS>
+<generatorID>A2809DDF-3A44-F4D0-9450-F19F5705E70F</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5894C9AC-B625-EFC1-6B85-11A04962D311" name="TB_PCT_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>C7004E89-080C-6068-A416-247A87A0CEEA</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="902713F4-00AF-E9D4-D6B9-76DC528C95C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

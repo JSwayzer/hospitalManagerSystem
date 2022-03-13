@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82A24912-13CD-20D1-6716-2A19C136D3B5" name="TB_LAUDO">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:21:24 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TB_LAUDO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_laudo" id="4D75E75D-2DD9-8843-A5C5-D78F07E85647">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:21:39 UTC</createdTime>
+<comment><![CDATA[identificador do laudo]]></comment>
+<commentInRDBMS><![CDATA[identificador do laudo]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_laudo" id="4C9003C7-8CA3-F02C-7199-0F2DC91FFCD1">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:22:09 UTC</createdTime>
+<comment><![CDATA[data de realizacao do laudo]]></comment>
+<commentInRDBMS><![CDATA[data de realizacao do laudo]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dc_laudo" id="E8086944-4F81-0137-4B67-587B8359D288">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:23:06 UTC</createdTime>
+<comment><![CDATA[documento do laudo do exame]]></comment>
+<commentInRDBMS><![CDATA[documento do laudo do exame]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="AB0AAECA-65DC-8BF4-3C48-22F472FA7468">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:25:55 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<commentInRDBMS><![CDATA[identificador do medico]]></commentInRDBMS>
+<generatorID>7A7AA3AD-AA43-EF73-2BF2-C271C759CF5A</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>91B6A316-EAE2-5327-3C9E-CDE5E9376466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_exm_real" id="D31D6B08-F47F-0869-B7C9-AF7C757EEE8A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:27:49 UTC</createdTime>
+<comment><![CDATA[identificador do exame realizado]]></comment>
+<commentInRDBMS><![CDATA[identificador do exame realizado]]></commentInRDBMS>
+<generatorID>5684166C-C9E9-151A-D48C-5CFC7DB19E11</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>1865A5A6-8182-9CB6-FC5C-5087FD57F7C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="399AC575-AFDF-5E8E-566A-3C5CDFF18F64" name="TB_LAUDO PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:22:08 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D75E75D-2DD9-8843-A5C5-D78F07E85647</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

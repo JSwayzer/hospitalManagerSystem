@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D6EB959D-5999-550E-BD9C-4F26D6412024" mainViewID="75C4659B-4144-3872-04BD-7D086134CBD1">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 20:20:35 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HealthTech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

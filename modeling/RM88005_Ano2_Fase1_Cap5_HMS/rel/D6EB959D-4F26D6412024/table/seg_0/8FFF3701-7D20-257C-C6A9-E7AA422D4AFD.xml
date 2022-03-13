@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FFF3701-7D20-257C-C6A9-E7AA422D4AFD" name="TB_PRC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>98CFB361-6D99-F563-FF35-FD4AFCDE8382</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_PRESCRICAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prc" id="9A5BCD0F-CB3D-CDF5-D722-4A51FD963C9A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador da prescricao]]></comment>
+<commentInRDBMS><![CDATA[identificador da prescricao]]></commentInRDBMS>
+<generatorID>C6E3A734-A8FB-1426-1F07-8F412AD21AC2</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_prc" id="81C8D035-744B-B785-340B-923D63E75651">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data da prescricao]]></comment>
+<commentInRDBMS><![CDATA[data da prescricao]]></commentInRDBMS>
+<generatorID>8BA14BA2-97FA-D036-DD18-55990A0BB0FC</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_via" id="C78A440E-7792-36C0-8F96-78FEF0D1A9B4">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[via de administracao do medicamento prescrito]]></comment>
+<commentInRDBMS><![CDATA[via de administracao do medicamento prescrito]]></commentInRDBMS>
+<generatorID>0DE72621-5159-2D07-DC7C-0F187D1A91F8</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_dose" id="7DB13A97-A8D8-F893-5FEC-8E7EF9404F49">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[dose dos medicamentos prescritos]]></comment>
+<commentInRDBMS><![CDATA[dose dos medicamentos prescritos]]></commentInRDBMS>
+<generatorID>0DFDD89D-7C35-33EC-CB95-9471C495840B</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_observacao" id="DA225E72-7B2C-52EE-3E29-8FF55D11D2CE">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[campo de observacao da prescricao]]></comment>
+<commentInRDBMS><![CDATA[campo de observacao da prescricao]]></commentInRDBMS>
+<generatorID>B281CA99-66C3-390D-521C-AA6C9CBB37FC</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_MEDICO_id_medico" id="E6216E51-A76B-2B47-B36E-02C2B9C68C53">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<generatorID>ECBBDB7D-970E-D466-2562-967496147935</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75F0A813-101E-1680-9E4D-D3527A8E4475" referredColumn="54053995-443A-78C2-B336-20555462FB71"/>
+</associations>
+</Column>
+<Column name="TB_PCT_id_pct" id="565F268D-78D1-C17F-4D92-151D3ADE3B78">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<generatorID>84204FB2-8A19-884F-AAA4-619CCCD64715</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="030B8C11-4AC2-B9D1-9B85-A911D1D2A1F6" referredColumn="902713F4-00AF-E9D4-D6B9-76DC528C95C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EDCE3C8-48BE-F7B8-3C7F-151196330D1F" name="TB_PRC_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>45038B54-AAA2-9A81-045A-7EAD9AA71CBB</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A5BCD0F-CB3D-CDF5-D722-4A51FD963C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7D15D71-CDA0-0251-3545-07F93793D46E" name="TB_PRC__IDX">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6F88B91D-BD63-2344-E679-3DA2F286EDED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E6216E51-A76B-2B47-B36E-02C2B9C68C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A6B380-3498-0C98-0327-CAE55F0BC53E" name="TB_PRC__IDXv1">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>43C3AD02-9F17-DE23-A996-C8348F298C53</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="565F268D-78D1-C17F-4D92-151D3ADE3B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="644E7A07-D168-6132-46FF-0598CEEE8302" name="TB_PRC_TB_MEDICO_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>6F88B91D-BD63-2344-E679-3DA2F286EDED</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6216E51-A76B-2B47-B36E-02C2B9C68C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F685EA-E676-DC7F-B36D-4D54350EFEF4" name="TB_PRC_TB_PCT_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>43C3AD02-9F17-DE23-A996-C8348F298C53</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565F268D-78D1-C17F-4D92-151D3ADE3B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

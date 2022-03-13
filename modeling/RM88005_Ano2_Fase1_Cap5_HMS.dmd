@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RM88005_Ano2_Fase1_Cap5_HealthTech" id="621E9B3E-93E2-BA03-C2AF-0DB24F724E12" version="3.5">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 20:20:32 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HealthTech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>621E9B3E-93E2-BA03-C2AF-0DB24F724E12</designId>
+</OSDM_Design>

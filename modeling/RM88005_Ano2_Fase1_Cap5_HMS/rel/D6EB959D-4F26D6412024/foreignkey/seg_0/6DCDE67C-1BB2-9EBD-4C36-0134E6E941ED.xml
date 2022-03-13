@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DCDE67C-1BB2-9EBD-4C36-0134E6E941ED" containerWithKeyObject="7BFABB36-0FEF-AE0D-9A85-CD31B93A3AC3" localFKIndex="46BFA2DD-FA40-BB62-72E4-0B6D8CED3399" name="TB_MDT_TB_PRC_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>7BDC3B3B-9972-92DF-704E-7D19C6778FD7</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<referredTableLongName>TB_PRC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FFF3701-7D20-257C-C6A9-E7AA422D4AFD</referredTableID>
+<keyObject>0EDCE3C8-48BE-F7B8-3C7F-151196330D1F</keyObject>
+<referredKeyID>0EDCE3C8-48BE-F7B8-3C7F-151196330D1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_prc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rl_pct_medico" directorySegmentName="seg_0" id="16536685-4A58-FC5F-BFFD-C7E4C8126C92">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 01:16:15 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HealthTech</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<sourcePk>C7004E89-080C-6068-A416-247A87A0CEEA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F40C4489-A7BA-8EFC-CA04-3B2166D925FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24A4E9D6-01BE-8528-BBB5-66AE8313F36E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

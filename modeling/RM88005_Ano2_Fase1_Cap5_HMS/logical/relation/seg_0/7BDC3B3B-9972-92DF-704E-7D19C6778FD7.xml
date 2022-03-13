@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rl_presc_mdt" directorySegmentName="seg_0" id="7BDC3B3B-9972-92DF-704E-7D19C6778FD7">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:19:16 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<sourcePk>45038B54-AAA2-9A81-045A-7EAD9AA71CBB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98CFB361-6D99-F563-FF35-FD4AFCDE8382</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>058596C5-90BF-EA01-E8B7-74C013734BAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

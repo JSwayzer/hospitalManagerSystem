@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CEE5764-89DF-FC9A-F9E0-6CEF8BCF0076" name="TB_EXM_REAL">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 22:21:23 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TB_EXAME_REALIZADO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_exm_real" id="1865A5A6-8182-9CB6-FC5C-5087FD57F7C6">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 22:22:15 UTC</createdTime>
+<comment><![CDATA[identificador do exame realizado]]></comment>
+<commentInRDBMS><![CDATA[identificador do exame realizado]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_exm_real" id="DC2000D3-1DEC-A751-2283-14A1FCAA9D7F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 22:22:30 UTC</createdTime>
+<comment><![CDATA[data do exame realizado]]></comment>
+<commentInRDBMS><![CDATA[data do exame realizado]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dc_exm_real" id="71211B59-74A5-57E9-B938-C7FEE89A4FE0">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:32:21 UTC</createdTime>
+<comment><![CDATA[documento do exame realizado]]></comment>
+<commentInRDBMS><![CDATA[documento do exame realizado]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pct1" id="621BF6BC-9686-55F5-1C22-575228F2ECAC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 01:15:30 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<commentInRDBMS><![CDATA[identificador do paciente]]></commentInRDBMS>
+<generatorID>0FE18B17-8E8E-420F-AD6F-6D5BEEF3D2DF</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>013F86B2-9BDC-C3D2-D304-C804B1A25FEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="60D7E80E-3E2F-42A2-990C-6309B06040A8">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 01:16:45 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<commentInRDBMS><![CDATA[identificador do medico]]></commentInRDBMS>
+<generatorID>CC72C3C5-F1FC-5E8D-E4A8-F56FE5F10984</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>91B6A316-EAE2-5327-3C9E-CDE5E9376466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFAAADB7-5D66-984D-6261-474500A37096" name="TB_EXM_REAL PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 22:22:28 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1865A5A6-8182-9CB6-FC5C-5087FD57F7C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

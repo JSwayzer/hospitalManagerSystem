@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rl_exm_real_laudo" directorySegmentName="seg_0" id="5684166C-C9E9-151A-D48C-5CFC7DB19E11">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:27:49 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<sourcePk>BFAAADB7-5D66-984D-6261-474500A37096</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1CEE5764-89DF-FC9A-F9E0-6CEF8BCF0076</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82A24912-13CD-20D1-6716-2A19C136D3B5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9FE1BB2F-689A-F004-0141-695D3359B197">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 20:20:33 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HealthTech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

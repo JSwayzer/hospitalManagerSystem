@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="058596C5-90BF-EA01-E8B7-74C013734BAC" name="TB_MDT">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 21:56:37 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TB_MEDICAMENTO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mdt" id="8613ED21-BCF9-D7BE-51BC-E1CE9AF04F2F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 21:57:26 UTC</createdTime>
+<comment><![CDATA[identificador do medicamento]]></comment>
+<commentInRDBMS><![CDATA[identificador do medicamento]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_mdt" id="C214013F-5DAE-39C1-5E4C-4356F75D0D25">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 21:57:36 UTC</createdTime>
+<comment><![CDATA[nome do medicamento]]></comment>
+<commentInRDBMS><![CDATA[nome do medicamento]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="9CE3E47D-C8B4-E3DB-79E5-F28939FCBCB9">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 22:07:12 UTC</createdTime>
+<comment><![CDATA[data de validade do medicamento]]></comment>
+<commentInRDBMS><![CDATA[data de validade do medicamento]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_prc" id="EB7062B8-7413-6625-A2A3-153F16519BF5">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:19:16 UTC</createdTime>
+<comment><![CDATA[identificador da prescricao]]></comment>
+<commentInRDBMS><![CDATA[identificador da prescricao]]></commentInRDBMS>
+<generatorID>7BDC3B3B-9972-92DF-704E-7D19C6778FD7</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>C6E3A734-A8FB-1426-1F07-8F412AD21AC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9242BFCC-114B-7029-DE6A-E37283389313" name="TB_MDT PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-12 21:57:34 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8613ED21-BCF9-D7BE-51BC-E1CE9AF04F2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

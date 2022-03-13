@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F55CD3F7-3ACA-6C00-C762-F08C874A837E" name="TB_TT_SNH">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>26E003D6-DDDA-F9EB-703D-2000AEC68274</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_TOTEM_SENHA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tt_snh" id="08536967-8000-8A15-FD9E-30045FBE4E09">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do totem de retirada de senhas]]></comment>
+<commentInRDBMS><![CDATA[identificador do totem de retirada de senhas]]></commentInRDBMS>
+<generatorID>DE03D596-6C21-3926-5298-559CB5E31538</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tt_snh" id="10C8C8D0-3BA9-0FE9-EBCC-FA5144BBC697">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[descricao do totem de retirada de senhas]]></comment>
+<commentInRDBMS><![CDATA[descricao do totem de retirada de senhas]]></commentInRDBMS>
+<generatorID>D62A7F59-8068-1030-FCB0-0024A20EF352</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_snh" id="A89EA972-A52E-B507-4D35-A7C7A6B2A054">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[descricao da senha]]></comment>
+<commentInRDBMS><![CDATA[descricao da senha]]></commentInRDBMS>
+<generatorID>67165849-63AF-1129-5812-65773806F996</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_retirada_snh" id="F96190CF-32FF-C9B9-BA81-DEEB321D40EE">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data da retirada da senha no totem]]></comment>
+<commentInRDBMS><![CDATA[data da retirada da senha no totem]]></commentInRDBMS>
+<generatorID>C5AE3E2B-3B1D-410C-348D-EC8A0A06005E</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PCT_id_pct" id="735BB168-1CC9-E45A-4ED5-6D372778CE8A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<commentInRDBMS><![CDATA[identificador do paciente]]></commentInRDBMS>
+<generatorID>7C7E0114-9CA7-1C40-71DB-5FD89AC6982D</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="583EAB92-95E3-B671-2CF2-A38F7D232928" referredColumn="902713F4-00AF-E9D4-D6B9-76DC528C95C8"/>
+</associations>
+</Column>
+<Column name="TB_UND_id_und" id="F37517F2-41BB-22D4-674B-7DCC3D6FCE8F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[identificador da unidade de atendimento]]></commentInRDBMS>
+<generatorID>69E5CFFD-90CB-B199-FDC1-2852FDF731BA</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4D1B54-F68A-B31D-E370-88350F4B936C" referredColumn="E0896CF6-B6DA-4AED-3065-BF51DF95FEB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F49AEC1A-1985-415A-8CCE-84AF7055AFAA" name="TB_TT_SNH_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>08ACF9C1-D3A1-47A0-EAB9-AD712A8DB6A5</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08536967-8000-8A15-FD9E-30045FBE4E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5E3A757-EC14-DF33-89F9-563916919203" name="TB_TT_SNH__IDX">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C214C277-D3DB-9D2D-CA5B-ACA6C03CCC81</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="735BB168-1CC9-E45A-4ED5-6D372778CE8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1056E0D8-1F0A-6A4D-CC4F-2EF3A5DD4890" name="TB_TT_SNH_TB_PCT_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>C214C277-D3DB-9D2D-CA5B-ACA6C03CCC81</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="735BB168-1CC9-E45A-4ED5-6D372778CE8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="097B2F78-5C32-C902-F1CD-BA0CEF2433E9" name="TB_TT_SNH_TB_UND_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>A806F0D6-3120-F2BB-7A83-B08865661AC5</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F37517F2-41BB-22D4-674B-7DCC3D6FCE8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

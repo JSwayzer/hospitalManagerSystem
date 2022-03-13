@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CDB2742-D5F0-2A51-8539-20DEB03046E3" name="rl_tt_pnl">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_TT_SNH_id_tt_snh" id="021AC6BB-CA68-C137-092E-3A524A6397F2">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9F6E50A-D09D-EFE3-AC3C-BA5903D80A5F" referredColumn="08536967-8000-8A15-FD9E-30045FBE4E09"/>
+</associations>
+</Column>
+<Column name="TB_PNL_SNH_id_pnl_snh" id="DF665AC1-8D9C-0F59-DAA2-945CEB8E2FB4">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E124C68B-B30A-1D18-BDDD-8A459BD01FF4" referredColumn="147D1968-E450-F216-C8EA-FED02CC1425F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A63A708D-E58E-6A46-9724-D854A3260701" name="rl_tt_pnl_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="021AC6BB-CA68-C137-092E-3A524A6397F2"/>
+<colUsage columnID="DF665AC1-8D9C-0F59-DAA2-945CEB8E2FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AB118F2-71B7-B37D-D925-BF1DF2F32C93" name="rl_tt_pnl_TB_TT_SNH_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>34F3B9E5-1B6D-5D99-B6A5-D4D5C18C14FE</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="021AC6BB-CA68-C137-092E-3A524A6397F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C53B5F-F4AC-85EA-0053-D7B463A31971" name="rl_tt_pnl_TB_PNL_SNH_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>34F3B9E5-1B6D-5D99-B6A5-D4D5C18C14FE</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF665AC1-8D9C-0F59-DAA2-945CEB8E2FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

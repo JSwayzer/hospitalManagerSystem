@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE4D1B54-F68A-B31D-E370-88350F4B936C" containerWithKeyObject="F55CD3F7-3ACA-6C00-C762-F08C874A837E" localFKIndex="097B2F78-5C32-C902-F1CD-BA0CEF2433E9" name="TB_TT_SNH_TB_UND_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>A806F0D6-3120-F2BB-7A83-B08865661AC5</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<referredTableLongName>TB_UND</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29DB56DF-C6FD-5834-71DE-1B2386F4EB05</referredTableID>
+<keyObject>35BFA994-2112-A0A3-A7F5-9B1A65845C11</keyObject>
+<referredKeyID>35BFA994-2112-A0A3-A7F5-9B1A65845C11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_und</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

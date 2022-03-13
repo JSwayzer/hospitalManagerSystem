@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BFABB36-0FEF-AE0D-9A85-CD31B93A3AC3" name="TB_MDT">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>058596C5-90BF-EA01-E8B7-74C013734BAC</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_MEDICAMENTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mdt" id="3B3001C7-75D3-6D08-3FC3-F8D9BBD7A010">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do medicamento]]></comment>
+<commentInRDBMS><![CDATA[identificador do medicamento]]></commentInRDBMS>
+<generatorID>8613ED21-BCF9-D7BE-51BC-E1CE9AF04F2F</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_mdt" id="AB6E9AE9-AC15-C79D-DF48-BEB31EA2DB68">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[nome do medicamento]]></comment>
+<commentInRDBMS><![CDATA[nome do medicamento]]></commentInRDBMS>
+<generatorID>C214013F-5DAE-39C1-5E4C-4356F75D0D25</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_validade" id="89CCAD6F-2475-8990-D6C0-EF6C5626DBDC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data de validade do medicamento]]></comment>
+<commentInRDBMS><![CDATA[data de validade do medicamento]]></commentInRDBMS>
+<generatorID>9CE3E47D-C8B4-E3DB-79E5-F28939FCBCB9</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PRC_id_prc" id="E2962425-DCF1-331F-1E45-A7CE23A7375C">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador da prescricao]]></comment>
+<commentInRDBMS><![CDATA[identificador da prescricao]]></commentInRDBMS>
+<generatorID>EB7062B8-7413-6625-A2A3-153F16519BF5</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DCDE67C-1BB2-9EBD-4C36-0134E6E941ED" referredColumn="9A5BCD0F-CB3D-CDF5-D722-4A51FD963C9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A91DBE0D-89B7-016C-1F55-ED50160E05C2" name="TB_MDT_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>9242BFCC-114B-7029-DE6A-E37283389313</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B3001C7-75D3-6D08-3FC3-F8D9BBD7A010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46BFA2DD-FA40-BB62-72E4-0B6D8CED3399" name="TB_MDT_TB_PRC_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>7BDC3B3B-9972-92DF-704E-7D19C6778FD7</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2962425-DCF1-331F-1E45-A7CE23A7375C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

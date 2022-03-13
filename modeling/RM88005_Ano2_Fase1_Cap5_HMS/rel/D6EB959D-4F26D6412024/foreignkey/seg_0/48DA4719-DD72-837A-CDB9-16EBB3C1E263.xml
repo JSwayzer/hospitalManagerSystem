@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48DA4719-DD72-837A-CDB9-16EBB3C1E263" containerWithKeyObject="1F910ED4-0F38-5805-9311-075F01BAA5F4" localFKIndex="6347982D-5A4F-7C05-1589-4015081FB090" name="TB_LAUDO_TB_EXM_REAL_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>5684166C-C9E9-151A-D48C-5CFC7DB19E11</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<referredTableLongName>TB_EXM_REAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77054B8D-A6DD-11A7-484D-0CE0896DF081</referredTableID>
+<keyObject>C5DEC36F-00E3-2513-C843-2B2C20D65F40</keyObject>
+<referredKeyID>C5DEC36F-00E3-2513-C843-2B2C20D65F40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_exm_real</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

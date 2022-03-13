@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98E2BA5C-88B4-17CC-A64A-32F0B9882021" containerWithKeyObject="77054B8D-A6DD-11A7-484D-0CE0896DF081" localFKIndex="CAFE07D4-B8BF-5FFF-333D-538911FBE0CD" name="TB_EXM_REAL_TB_PCT_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>0FE18B17-8E8E-420F-AD6F-6D5BEEF3D2DF</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<referredTableLongName>TB_PCT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>543491AE-BB37-5C00-DA2D-E0AE64A83868</referredTableID>
+<keyObject>5894C9AC-B625-EFC1-6B85-11A04962D311</keyObject>
+<referredKeyID>5894C9AC-B625-EFC1-6B85-11A04962D311</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pct</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

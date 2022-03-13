@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29DB56DF-C6FD-5834-71DE-1B2386F4EB05" name="TB_UND">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>E0476C25-5E90-6F24-B219-84B5C0AE534E</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_UNIDADE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_und" id="E0896CF6-B6DA-4AED-3065-BF51DF95FEB3">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[identificador da unidade de atendimento]]></commentInRDBMS>
+<generatorID>C0195397-F217-818C-E43E-DEA3EDA15145</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_und" id="999D5999-6464-E0FA-220A-9882004BDE6A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[nome da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[nome da unidade de atendimento]]></commentInRDBMS>
+<generatorID>33D55683-1759-5D88-6C70-512C112B3736</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="357EFC50-87FB-680D-A9B0-7F150546207E">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero de cnpj da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[numero de cnpj da unidade de atendimento]]></commentInRDBMS>
+<generatorID>7FF17E14-1F58-F5E1-6319-2C08A8304DE1</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_enderco" id="F779EB1C-4B47-478A-D032-1F969D436BA1">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[endereco da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[endereco da unidade de atendimento]]></commentInRDBMS>
+<generatorID>DC6A2CB2-F298-34F6-854A-B119FEF47C0D</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_numero" id="ACFA5018-F753-1A00-121A-2741521FD699">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero do endereco da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[numero do endereco da unidade de atendimento]]></commentInRDBMS>
+<generatorID>4A968168-41CB-70B5-ED55-E5DC24A105B8</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="C888585A-55BE-174D-138D-A1AF21F65F45">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero de telefone da unidade de atendimento]]></comment>
+<commentInRDBMS><![CDATA[numero de telefone da unidade de atendimento]]></commentInRDBMS>
+<generatorID>6F1B6165-95BD-0DDE-2205-81CA89BF3B3B</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35BFA994-2112-A0A3-A7F5-9B1A65845C11" name="TB_UND_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>490DC7EA-7393-9A27-DA9A-341FE4590227</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0896CF6-B6DA-4AED-3065-BF51DF95FEB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

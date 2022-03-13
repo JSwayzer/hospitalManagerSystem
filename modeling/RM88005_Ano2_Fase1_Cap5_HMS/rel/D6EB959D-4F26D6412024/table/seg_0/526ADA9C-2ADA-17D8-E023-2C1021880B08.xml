@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="526ADA9C-2ADA-17D8-E023-2C1021880B08" name="TB_MEDICO">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>24A4E9D6-01BE-8528-BBB5-66AE8313F36E</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_MEDICO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="54053995-443A-78C2-B336-20555462FB71">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<commentInRDBMS><![CDATA[identificador do medico]]></commentInRDBMS>
+<generatorID>91B6A316-EAE2-5327-3C9E-CDE5E9376466</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_medico" id="FBE94918-03CE-FBBF-27F4-3BB24E93FF0D">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[nome do medico]]></comment>
+<commentInRDBMS><![CDATA[nome do medico]]></commentInRDBMS>
+<generatorID>7879BB39-088E-C569-4029-C430E089CFCD</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="35791EBD-35DA-C3B1-8FAA-9B0E8F8E616B">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data de nascimento do medico]]></comment>
+<commentInRDBMS><![CDATA[data de nascimento do medico]]></commentInRDBMS>
+<generatorID>6FF90C72-5AF6-2A38-EA42-B75426C4F455</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="D232E139-21DF-71B0-BA26-B89C4FA5AD46">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero do cpf do medico]]></comment>
+<commentInRDBMS><![CDATA[numero do cpf do medico]]></commentInRDBMS>
+<generatorID>8F73B9B2-03D3-21F8-1A8C-55A1B273DE1C</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crm" id="CC6A5167-9BE8-894D-9B79-2DAF8610AD28">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[numero do crm do medico]]></comment>
+<commentInRDBMS><![CDATA[numero do crm do medico]]></commentInRDBMS>
+<generatorID>93065AB1-CCD3-8A6E-58CF-9CC17AA66926</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_uf_crm" id="0621C177-B729-20D4-6DF8-7E231EA31455">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[uf do estado crm do medico]]></comment>
+<commentInRDBMS><![CDATA[uf do estado crm do medico]]></commentInRDBMS>
+<generatorID>9BE6E8A2-0BAF-723F-0536-F6BC71C22875</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_especialidade" id="D8A1DFF2-57AF-92A1-0392-19F09842D97A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[descricao da especialidade do medico]]></comment>
+<commentInRDBMS><![CDATA[descricao da especialidade do medico]]></commentInRDBMS>
+<generatorID>1487D40D-0B8B-86CE-02BA-AB5B3847F79E</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PCT_id_pct" id="4CB14CEB-EE4E-0DE0-6E9D-5F773B3F289F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<generatorID>51D2F7C1-8AE4-389E-68A6-955059C8425C</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FE7E5B4-11DF-FB75-97B3-0438B6900AB1" referredColumn="902713F4-00AF-E9D4-D6B9-76DC528C95C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA10698A-98A1-A677-B58F-F26E0BD6A3B3" name="TB_MEDICO_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>F611169D-32A2-D580-A040-81CBC9997E62</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54053995-443A-78C2-B336-20555462FB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5924A532-7757-D53C-3FC2-96145BBFECCD" name="TB_MEDICO_TB_PCT_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>16536685-4A58-FC5F-BFFD-C7E4C8126C92</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB14CEB-EE4E-0DE0-6E9D-5F773B3F289F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

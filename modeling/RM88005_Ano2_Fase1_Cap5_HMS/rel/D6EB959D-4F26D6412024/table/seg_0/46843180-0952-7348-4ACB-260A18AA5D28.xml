@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46843180-0952-7348-4ACB-260A18AA5D28" name="TB_PNL_SNH">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>C7F2C60F-3445-2945-6C07-8D644246DC1A</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<abbreviation>TB_PAINEL_CHAMADA_SENHA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pnl_snh" id="147D1968-E450-F216-C8EA-FED02CC1425F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do painel de chamada de senhas]]></comment>
+<commentInRDBMS><![CDATA[identificador do painel de chamada de senhas]]></commentInRDBMS>
+<generatorID>2427646A-F57E-C44F-BB6A-6B679376861A</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_painel" id="D4988BAB-BAFB-985F-DDF4-5303253308C8">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[descricao do painel de chamada de senhas]]></comment>
+<commentInRDBMS><![CDATA[descricao do painel de chamada de senhas]]></commentInRDBMS>
+<generatorID>7FABFC1A-7BA8-F3C0-1338-E4086E101AC9</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_chamada_snh" id="8CE4399B-3707-1542-7F49-485DD154B80B">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[data da chamada da senha no painel]]></comment>
+<commentInRDBMS><![CDATA[data da chamada da senha no painel]]></commentInRDBMS>
+<generatorID>289D1E7F-32AA-2837-3CCF-4988F0CBB5D7</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_MEDICO_id_medico" id="D9EA9741-D266-1DAA-B453-38504571624E">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<commentInRDBMS><![CDATA[identificador do medico]]></commentInRDBMS>
+<generatorID>18622AC0-4929-A977-E081-43A0F79D2010</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2857177-F0B2-14B1-090F-4BD2712EF293" referredColumn="54053995-443A-78C2-B336-20555462FB71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BCC1D41-8C77-7DE2-E2B7-74DEE4589E62" name="TB_PNL_SNH_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>A9DC3821-3418-C41C-30BE-4D056AA986BD</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147D1968-E450-F216-C8EA-FED02CC1425F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="302AC778-E5D6-1589-F4DD-00A168C49A73" name="TB_PNL_SNH_TB_MEDICO_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>740597E4-7887-D611-1B0A-08D1D0017E9E</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9EA9741-D266-1DAA-B453-38504571624E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

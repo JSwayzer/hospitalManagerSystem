@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E124C68B-B30A-1D18-BDDD-8A459BD01FF4" containerWithKeyObject="9CDB2742-D5F0-2A51-8539-20DEB03046E3" localFKIndex="50C53B5F-F4AC-85EA-0053-D7B463A31971" name="rl_tt_pnl_TB_PNL_SNH_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:34:21 UTC</createdTime>
+<generatorID>34F3B9E5-1B6D-5D99-B6A5-D4D5C18C14FE</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<referredTableLongName>TB_PNL_SNH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46843180-0952-7348-4ACB-260A18AA5D28</referredTableID>
+<keyObject>0BCC1D41-8C77-7DE2-E2B7-74DEE4589E62</keyObject>
+<referredKeyID>0BCC1D41-8C77-7DE2-E2B7-74DEE4589E62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pnl_snh</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

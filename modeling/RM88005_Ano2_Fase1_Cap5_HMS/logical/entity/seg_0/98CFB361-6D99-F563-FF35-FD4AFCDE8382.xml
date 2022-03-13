@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98CFB361-6D99-F563-FF35-FD4AFCDE8382" name="TB_PRC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:05:16 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TB_PRESCRICAO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_prc" id="C6E3A734-A8FB-1426-1F07-8F412AD21AC2">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:05:47 UTC</createdTime>
+<comment><![CDATA[identificador da prescricao]]></comment>
+<commentInRDBMS><![CDATA[identificador da prescricao]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_prc" id="8BA14BA2-97FA-D036-DD18-55990A0BB0FC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:05:58 UTC</createdTime>
+<comment><![CDATA[data da prescricao]]></comment>
+<commentInRDBMS><![CDATA[data da prescricao]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_via" id="0DE72621-5159-2D07-DC7C-0F187D1A91F8">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:06:16 UTC</createdTime>
+<comment><![CDATA[via de administracao do medicamento prescrito]]></comment>
+<commentInRDBMS><![CDATA[via de administracao do medicamento prescrito]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_dose" id="0DFDD89D-7C35-33EC-CB95-9471C495840B">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:16:43 UTC</createdTime>
+<comment><![CDATA[dose dos medicamentos prescritos]]></comment>
+<commentInRDBMS><![CDATA[dose dos medicamentos prescritos]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ob_observacao" id="B281CA99-66C3-390D-521C-AA6C9CBB37FC">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:17:41 UTC</createdTime>
+<comment><![CDATA[campo de observacao da prescricao]]></comment>
+<commentInRDBMS><![CDATA[campo de observacao da prescricao]]></commentInRDBMS>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="ECBBDB7D-970E-D466-2562-967496147935">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:34:32 UTC</createdTime>
+<comment><![CDATA[identificador do medico]]></comment>
+<generatorID>6F88B91D-BD63-2344-E679-3DA2F286EDED</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>91B6A316-EAE2-5327-3C9E-CDE5E9376466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pct" id="84204FB2-8A19-884F-AAA4-619CCCD64715">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 19:17:50 UTC</createdTime>
+<comment><![CDATA[identificador do paciente]]></comment>
+<generatorID>43C3AD02-9F17-DE23-A996-C8348F298C53</generatorID>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="true"/>
+</engineerTo>
+<referedAttribute>013F86B2-9BDC-C3D2-D304-C804B1A25FEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45038B54-AAA2-9A81-045A-7EAD9AA71CBB" name="TB_PRC PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-13 00:05:57 UTC</createdTime>
+<ownerDesignName>RM88005_Ano2_Fase1_Cap5_HMS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D6EB959D-5999-550E-BD9C-4F26D6412024" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6E3A734-A8FB-1426-1F07-8F412AD21AC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
