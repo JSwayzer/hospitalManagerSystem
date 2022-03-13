@@ -12,7 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -37,6 +37,10 @@ public class Totem {
 	@JoinColumn(name = "id_und")
 	@ManyToOne
 	private Unidade unidade;
+	
+	@OneToOne
+	@JoinColumn(name = "id_pct")
+	private Paciente pacienteTt;
 	
 	@Column(name="ds_tt_snh",nullable=false,length=80)
 	private String totemSenha;
