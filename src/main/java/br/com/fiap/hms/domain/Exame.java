@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -22,6 +24,10 @@ public class Exame {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "exame")
 	@Column(name="id_exm")
 	private int codigoExame;
+	
+	@JoinColumn(name = "id_exm_real")
+	@ManyToOne
+	private ExameRealizado exameRealizado;
 	
 	@Column(name="ds_exm",nullable=false,length=255)
 	private String nomeExame;

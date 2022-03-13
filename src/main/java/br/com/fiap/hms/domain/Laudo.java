@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -24,6 +26,14 @@ public class Laudo {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator="laudo")
 	@Column(name="id_laudo")
 	private int codigoLaudo;
+	
+	@JoinColumn(name = "id_laudo")
+	@ManyToOne
+	private ExameRealizado exameRealizadoLaudo;
+	
+	@JoinColumn(name = "id_medico")
+	@ManyToOne
+	private Medico medicoLaudo;
 	
 	@Column(name="dt_laudo",nullable=false)
 	private Calendar dataLaudo;
