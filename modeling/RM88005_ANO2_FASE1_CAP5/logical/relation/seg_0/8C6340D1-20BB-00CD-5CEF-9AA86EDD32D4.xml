@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rl_tb_pct_tb_mdmt" directorySegmentName="seg_0" id="8C6340D1-20BB-00CD-5CEF-9AA86EDD32D4">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:24:53 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>77DAD941-88E9-F39E-4B4A-B6BD99DE245E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D057FC7A-90E1-7A02-A4C1-D1BFB4147EFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

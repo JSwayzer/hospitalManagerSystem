@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CC5FBF5B-E1FC-DB5C-461F-166B737DA795" mainViewID="40206AAA-5759-1748-80DC-89A6FDD4A27C">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:20:30 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

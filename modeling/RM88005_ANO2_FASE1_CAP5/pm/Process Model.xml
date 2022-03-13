@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9CF7F3CB-8583-3D1B-8CCD-15E9F6A6B342">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:20:30 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

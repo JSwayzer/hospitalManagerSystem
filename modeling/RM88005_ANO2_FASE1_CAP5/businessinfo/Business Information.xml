@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="480BC204-B792-96F8-886B-D8B4D3AE6F9C">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:20:30 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

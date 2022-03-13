@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DC05CC8-8BCA-5F04-318B-497B4E5D463E" name="rl_tb_pct_tb_exm">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_EXAME_id_exame" id="0063F456-F0D2-4A3A-2762-A19258580E3F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BCFF18F-5C65-24E1-0FDA-0675A7CC1CB1" referredColumn="160E540C-390E-F3AB-DC61-E47D8429B046"/>
+</associations>
+</Column>
+<Column name="TB_PACIENTE_id_paciente" id="8F523737-E81C-B52F-62DF-AF92E0F2E74F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F7417DF-D133-808A-2E4A-D7578AD2DF11" referredColumn="261DAAAF-870C-14CE-CBB2-4F2B6FA861E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0602ABF-6410-1C23-CB19-E26358FBA2FF" name="rl_tb_paciente_tb_exame_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0063F456-F0D2-4A3A-2762-A19258580E3F"/>
+<colUsage columnID="8F523737-E81C-B52F-62DF-AF92E0F2E74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1777D61C-A0A7-7E6F-B983-54ED816A1020" name="rl_tb_paciente_tb_exame_TB_EXAME_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>B443BE76-9F75-B035-AE60-2E8A581E8C70</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0063F456-F0D2-4A3A-2762-A19258580E3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C34A67F2-F670-3974-8D79-B485E1CC85ED" name="rl_tb_paciente_tb_exame_TB_PACIENTE_FK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>B443BE76-9F75-B035-AE60-2E8A581E8C70</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F523737-E81C-B52F-62DF-AF92E0F2E74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

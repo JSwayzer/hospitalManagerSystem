@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77DAD941-88E9-F39E-4B4A-B6BD99DE245E" name="TB_PACIENTE">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:20:49 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="EB908EA8-17AF-CC6D-2B8B-01773EDAF23E">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:21:29 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome_paciente" id="005988B2-111A-714A-1DA7-90D76BA8B7B1">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:21:58 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="FF5E45A4-EEE7-F5DE-7944-1381BB453330">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:22:35 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="4A695D13-6788-B460-80B6-CF1F8904E7DB">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:23:56 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="93ADC345-747A-02B9-7592-2CE13A1EB98A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:24:35 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="4BD0C093-B106-A163-D167-3CD86192BF44">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:25:12 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_prioridade" id="9437148C-A10B-6079-3185-9DA90A9190B5">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:25:43 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71F0D2C4-42FA-4094-A097-4901519DDEAB" name="TB_PACIENTE PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:21:54 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB908EA8-17AF-CC6D-2B8B-01773EDAF23E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

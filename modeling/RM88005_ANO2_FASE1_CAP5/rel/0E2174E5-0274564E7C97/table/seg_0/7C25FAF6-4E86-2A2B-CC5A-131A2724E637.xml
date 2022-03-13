@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C25FAF6-4E86-2A2B-CC5A-131A2724E637" name="TB_MEDICO">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>1C5F006A-5D9B-DFA7-A004-69672F23FEBC</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="6B910D9F-E1B9-1E40-A44C-3596395BA403">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>02381F62-CD28-1CA6-81BC-0E79652314C2</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome_medico" id="DFE5E27B-C441-6D12-4DE5-1C3FADED4E0E">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>9F93BB8B-394C-84BD-27A9-C0CA6FBD611B</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="22A5F530-4A5D-FDE9-F05A-C168787C7D50">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>03866D1E-1643-0CED-3E80-BFDBE51830B3</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="55FD5E7D-F7D1-80C9-C15D-4B12E7CADF0B">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>4ECA90F7-A266-E777-183D-836ED918F5E0</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crm" id="FDC61CEA-76DE-4114-870F-89CB8C02D3AD">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>304B945E-0B6D-E79B-0F9F-76A464BA66E6</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uf_estado_crm" id="E52F3265-DE1F-4308-A472-B5825EC05319">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>B422148F-8887-2853-0604-1887DE2835E3</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_especialidade" id="0DAA69CA-867B-CDB7-B982-98EC796F487A">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>BB79D2B5-1749-B230-D51E-4CF01BEA8119</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7329138F-34FE-D3AC-EBF9-C80CF2CBEF6C" name="TB_MEDICO_PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:26:32 UTC</createdTime>
+<generatorID>25FFE99F-01FE-3AE3-1E3D-AB993C1CAC0B</generatorID>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B910D9F-E1B9-1E40-A44C-3596395BA403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

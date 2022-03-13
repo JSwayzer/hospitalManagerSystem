@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D057FC7A-90E1-7A02-A4C1-D1BFB4147EFB" name="TB_MDMT">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-06 23:49:37 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TB_MEDICAMENTO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medicamento" id="D3EC021C-EE5F-BBEA-873F-33B731B62574">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:08:19 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medicamento" id="1F7CF9A4-B400-275E-F61F-D890DFAE0DC7">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:08:39 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="F9D1F21E-F813-735B-B9F0-406B906ED64F">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:09:29 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0287323C-89B8-F7EB-FB81-C6076026E804" name="TB_MDMT PK">
+<createdBy>JSway</createdBy>
+<createdTime>2022-03-07 00:08:37 UTC</createdTime>
+<ownerDesignName>RM88005_ANO2_FASE1_CAP5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0E2174E5-C96E-8F87-35AB-0274564E7C97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D3EC021C-EE5F-BBEA-873F-33B731B62574</newElementsIDs>
+<usedAttributes>
+<attributeRef>D3EC021C-EE5F-BBEA-873F-33B731B62574</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
