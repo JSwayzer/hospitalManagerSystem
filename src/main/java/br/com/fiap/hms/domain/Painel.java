@@ -40,4 +40,98 @@ public class Painel {
 	@Column(name="dt_chamada_snh")
 	private Calendar dataChamadaSenha;
 
+	/**
+	 * @param codigoPainel
+	 * @param totem
+	 * @param medicoPainel
+	 * @param painel
+	 * @param dataChamadaSenha
+	 */
+	public Painel(int codigoPainel, List<Totem> totem, Medico medicoPainel, String painel, Calendar dataChamadaSenha) {
+		super();
+		this.codigoPainel = codigoPainel;
+		this.totem = totem;
+		this.medicoPainel = medicoPainel;
+		this.painel = painel;
+		this.dataChamadaSenha = dataChamadaSenha;
+	}
+
+	/**
+	 * 
+	 */
+	public Painel() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the codigoPainel
+	 */
+	public int getCodigoPainel() {
+		return codigoPainel;
+	}
+
+	/**
+	 * @param codigoPainel the codigoPainel to set
+	 */
+	public void setCodigoPainel(int codigoPainel) {
+		this.codigoPainel = codigoPainel;
+	}
+
+	/**
+	 * @return the totem
+	 */
+	public List<Totem> getTotem() {
+		return totem;
+	}
+
+	/**
+	 * @param totem the totem to set
+	 */
+	public void setTotem(List<Totem> totem) {
+		this.totem = totem;
+	}
+
+	/**
+	 * @return the medicoPainel
+	 */
+	public Medico getMedicoPainel() {
+		return medicoPainel;
+	}
+
+	/**
+	 * @param medicoPainel the medicoPainel to set
+	 */
+	public void setMedicoPainel(Medico medicoPainel) {
+		this.medicoPainel = medicoPainel;
+	}
+
+	/**
+	 * @return the painel
+	 */
+	public String getPainel() {
+		return painel;
+	}
+
+	/**
+	 * @param painel the painel to set
+	 */
+	public void setPainel(String painel) {
+		this.painel = painel;
+	}
+
+	/**
+	 * @return the dataChamadaSenha
+	 */
+	public Calendar getDataChamadaSenha() {
+		return dataChamadaSenha;
+	}
+
+	/**
+	 * @param dataChamadaSenha the dataChamadaSenha to set
+	 */
+	public void setDataChamadaSenha(Calendar dataChamadaSenha) {
+		this.dataChamadaSenha = dataChamadaSenha;
+	}
+
 }

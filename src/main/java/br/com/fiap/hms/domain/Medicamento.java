@@ -38,5 +38,83 @@ public class Medicamento {
 	@Temporal(TemporalType.DATE)
 	@Column(name="dt_validade")
 	private Calendar dataValidade;
+
+	/**
+	 * @param codigoMedicamento
+	 * @param prescricaoMdt
+	 * @param nomeMedicamento
+	 * @param dataValidade
+	 */
+	public Medicamento(int codigoMedicamento, Prescricao prescricaoMdt, String nomeMedicamento, Calendar dataValidade) {
+		super();
+		this.codigoMedicamento = codigoMedicamento;
+		this.prescricaoMdt = prescricaoMdt;
+		this.nomeMedicamento = nomeMedicamento;
+		this.dataValidade = dataValidade;
+	}
+
+	/**
+	 * 
+	 */
+	public Medicamento() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the codigoMedicamento
+	 */
+	public int getCodigoMedicamento() {
+		return codigoMedicamento;
+	}
+
+	/**
+	 * @param codigoMedicamento the codigoMedicamento to set
+	 */
+	public void setCodigoMedicamento(int codigoMedicamento) {
+		this.codigoMedicamento = codigoMedicamento;
+	}
+
+	/**
+	 * @return the prescricaoMdt
+	 */
+	public Prescricao getPrescricaoMdt() {
+		return prescricaoMdt;
+	}
+
+	/**
+	 * @param prescricaoMdt the prescricaoMdt to set
+	 */
+	public void setPrescricaoMdt(Prescricao prescricaoMdt) {
+		this.prescricaoMdt = prescricaoMdt;
+	}
+
+	/**
+	 * @return the nomeMedicamento
+	 */
+	public String getNomeMedicamento() {
+		return nomeMedicamento;
+	}
+
+	/**
+	 * @param nomeMedicamento the nomeMedicamento to set
+	 */
+	public void setNomeMedicamento(String nomeMedicamento) {
+		this.nomeMedicamento = nomeMedicamento;
+	}
+
+	/**
+	 * @return the dataValidade
+	 */
+	public Calendar getDataValidade() {
+		return dataValidade;
+	}
+
+	/**
+	 * @param dataValidade the dataValidade to set
+	 */
+	public void setDataValidade(Calendar dataValidade) {
+		this.dataValidade = dataValidade;
+	}
 	
 }

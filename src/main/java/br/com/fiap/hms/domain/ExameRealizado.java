@@ -50,4 +50,131 @@ public class ExameRealizado {
 	@Column(name="dc_exm_real",nullable=false)
 	private Blob docExameRealizado;
 
+	/**
+	 * @param codigoExameRealizado
+	 * @param exames
+	 * @param laudos
+	 * @param pacienteExmReal
+	 * @param medicoExmReal
+	 * @param dataExameRealizado
+	 * @param docExameRealizado
+	 */
+	public ExameRealizado(int codigoExameRealizado, List<Exame> exames, List<Laudo> laudos, Paciente pacienteExmReal,
+			Medico medicoExmReal, Calendar dataExameRealizado, Blob docExameRealizado) {
+		super();
+		this.codigoExameRealizado = codigoExameRealizado;
+		this.exames = exames;
+		this.laudos = laudos;
+		this.pacienteExmReal = pacienteExmReal;
+		this.medicoExmReal = medicoExmReal;
+		this.dataExameRealizado = dataExameRealizado;
+		this.docExameRealizado = docExameRealizado;
+	}
+
+	/**
+	 * 
+	 */
+	public ExameRealizado() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the codigoExameRealizado
+	 */
+	public int getCodigoExameRealizado() {
+		return codigoExameRealizado;
+	}
+
+	/**
+	 * @param codigoExameRealizado the codigoExameRealizado to set
+	 */
+	public void setCodigoExameRealizado(int codigoExameRealizado) {
+		this.codigoExameRealizado = codigoExameRealizado;
+	}
+
+	/**
+	 * @return the exames
+	 */
+	public List<Exame> getExames() {
+		return exames;
+	}
+
+	/**
+	 * @param exames the exames to set
+	 */
+	public void setExames(List<Exame> exames) {
+		this.exames = exames;
+	}
+
+	/**
+	 * @return the laudos
+	 */
+	public List<Laudo> getLaudos() {
+		return laudos;
+	}
+
+	/**
+	 * @param laudos the laudos to set
+	 */
+	public void setLaudos(List<Laudo> laudos) {
+		this.laudos = laudos;
+	}
+
+	/**
+	 * @return the pacienteExmReal
+	 */
+	public Paciente getPacienteExmReal() {
+		return pacienteExmReal;
+	}
+
+	/**
+	 * @param pacienteExmReal the pacienteExmReal to set
+	 */
+	public void setPacienteExmReal(Paciente pacienteExmReal) {
+		this.pacienteExmReal = pacienteExmReal;
+	}
+
+	/**
+	 * @return the medicoExmReal
+	 */
+	public Medico getMedicoExmReal() {
+		return medicoExmReal;
+	}
+
+	/**
+	 * @param medicoExmReal the medicoExmReal to set
+	 */
+	public void setMedicoExmReal(Medico medicoExmReal) {
+		this.medicoExmReal = medicoExmReal;
+	}
+
+	/**
+	 * @return the dataExameRealizado
+	 */
+	public Calendar getDataExameRealizado() {
+		return dataExameRealizado;
+	}
+
+	/**
+	 * @param dataExameRealizado the dataExameRealizado to set
+	 */
+	public void setDataExameRealizado(Calendar dataExameRealizado) {
+		this.dataExameRealizado = dataExameRealizado;
+	}
+
+	/**
+	 * @return the docExameRealizado
+	 */
+	public Blob getDocExameRealizado() {
+		return docExameRealizado;
+	}
+
+	/**
+	 * @param docExameRealizado the docExameRealizado to set
+	 */
+	public void setDocExameRealizado(Blob docExameRealizado) {
+		this.docExameRealizado = docExameRealizado;
+	}
+
 }

@@ -51,4 +51,147 @@ public class Prescricao {
 	@Column(name="ob_observaco",length=255)
 	private String observacao;
 
+	/**
+	 * @param codigoPrescricao
+	 * @param medicamento
+	 * @param pacientePrc
+	 * @param medicoPrc
+	 * @param dataPrescricao
+	 * @param via
+	 * @param dose
+	 * @param observacao
+	 */
+	public Prescricao(int codigoPrescricao, List<Medicamento> medicamento, Paciente pacientePrc, Medico medicoPrc,
+			Calendar dataPrescricao, String via, String dose, String observacao) {
+		super();
+		this.codigoPrescricao = codigoPrescricao;
+		this.medicamento = medicamento;
+		this.pacientePrc = pacientePrc;
+		this.medicoPrc = medicoPrc;
+		this.dataPrescricao = dataPrescricao;
+		this.via = via;
+		this.dose = dose;
+		this.observacao = observacao;
+	}
+
+	/**
+	 * 
+	 */
+	public Prescricao() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the codigoPrescricao
+	 */
+	public int getCodigoPrescricao() {
+		return codigoPrescricao;
+	}
+
+	/**
+	 * @param codigoPrescricao the codigoPrescricao to set
+	 */
+	public void setCodigoPrescricao(int codigoPrescricao) {
+		this.codigoPrescricao = codigoPrescricao;
+	}
+
+	/**
+	 * @return the medicamento
+	 */
+	public List<Medicamento> getMedicamento() {
+		return medicamento;
+	}
+
+	/**
+	 * @param medicamento the medicamento to set
+	 */
+	public void setMedicamento(List<Medicamento> medicamento) {
+		this.medicamento = medicamento;
+	}
+
+	/**
+	 * @return the pacientePrc
+	 */
+	public Paciente getPacientePrc() {
+		return pacientePrc;
+	}
+
+	/**
+	 * @param pacientePrc the pacientePrc to set
+	 */
+	public void setPacientePrc(Paciente pacientePrc) {
+		this.pacientePrc = pacientePrc;
+	}
+
+	/**
+	 * @return the medicoPrc
+	 */
+	public Medico getMedicoPrc() {
+		return medicoPrc;
+	}
+
+	/**
+	 * @param medicoPrc the medicoPrc to set
+	 */
+	public void setMedicoPrc(Medico medicoPrc) {
+		this.medicoPrc = medicoPrc;
+	}
+
+	/**
+	 * @return the dataPrescricao
+	 */
+	public Calendar getDataPrescricao() {
+		return dataPrescricao;
+	}
+
+	/**
+	 * @param dataPrescricao the dataPrescricao to set
+	 */
+	public void setDataPrescricao(Calendar dataPrescricao) {
+		this.dataPrescricao = dataPrescricao;
+	}
+
+	/**
+	 * @return the via
+	 */
+	public String getVia() {
+		return via;
+	}
+
+	/**
+	 * @param via the via to set
+	 */
+	public void setVia(String via) {
+		this.via = via;
+	}
+
+	/**
+	 * @return the dose
+	 */
+	public String getDose() {
+		return dose;
+	}
+
+	/**
+	 * @param dose the dose to set
+	 */
+	public void setDose(String dose) {
+		this.dose = dose;
+	}
+
+	/**
+	 * @return the observacao
+	 */
+	public String getObservacao() {
+		return observacao;
+	}
+
+	/**
+	 * @param observacao the observacao to set
+	 */
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
+	}
+
 }

@@ -51,4 +51,131 @@ public class Totem {
 	@Column(name="dt_retirada_snh",nullable=false)
 	private Calendar dataRetiradaSenha;
 
+	/**
+	 * @param codigoTotem
+	 * @param painel
+	 * @param unidade
+	 * @param pacienteTt
+	 * @param totemSenha
+	 * @param senha
+	 * @param dataRetiradaSenha
+	 */
+	public Totem(int codigoTotem, List<Painel> painel, Unidade unidade, Paciente pacienteTt, String totemSenha,
+			String senha, Calendar dataRetiradaSenha) {
+		super();
+		this.codigoTotem = codigoTotem;
+		this.painel = painel;
+		this.unidade = unidade;
+		this.pacienteTt = pacienteTt;
+		this.totemSenha = totemSenha;
+		this.senha = senha;
+		this.dataRetiradaSenha = dataRetiradaSenha;
+	}
+
+	/**
+	 * 
+	 */
+	public Totem() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the codigoTotem
+	 */
+	public int getCodigoTotem() {
+		return codigoTotem;
+	}
+
+	/**
+	 * @param codigoTotem the codigoTotem to set
+	 */
+	public void setCodigoTotem(int codigoTotem) {
+		this.codigoTotem = codigoTotem;
+	}
+
+	/**
+	 * @return the painel
+	 */
+	public List<Painel> getPainel() {
+		return painel;
+	}
+
+	/**
+	 * @param painel the painel to set
+	 */
+	public void setPainel(List<Painel> painel) {
+		this.painel = painel;
+	}
+
+	/**
+	 * @return the unidade
+	 */
+	public Unidade getUnidade() {
+		return unidade;
+	}
+
+	/**
+	 * @param unidade the unidade to set
+	 */
+	public void setUnidade(Unidade unidade) {
+		this.unidade = unidade;
+	}
+
+	/**
+	 * @return the pacienteTt
+	 */
+	public Paciente getPacienteTt() {
+		return pacienteTt;
+	}
+
+	/**
+	 * @param pacienteTt the pacienteTt to set
+	 */
+	public void setPacienteTt(Paciente pacienteTt) {
+		this.pacienteTt = pacienteTt;
+	}
+
+	/**
+	 * @return the totemSenha
+	 */
+	public String getTotemSenha() {
+		return totemSenha;
+	}
+
+	/**
+	 * @param totemSenha the totemSenha to set
+	 */
+	public void setTotemSenha(String totemSenha) {
+		this.totemSenha = totemSenha;
+	}
+
+	/**
+	 * @return the senha
+	 */
+	public String getSenha() {
+		return senha;
+	}
+
+	/**
+	 * @param senha the senha to set
+	 */
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	/**
+	 * @return the dataRetiradaSenha
+	 */
+	public Calendar getDataRetiradaSenha() {
+		return dataRetiradaSenha;
+	}
+
+	/**
+	 * @param dataRetiradaSenha the dataRetiradaSenha to set
+	 */
+	public void setDataRetiradaSenha(Calendar dataRetiradaSenha) {
+		this.dataRetiradaSenha = dataRetiradaSenha;
+	}
+
 }
