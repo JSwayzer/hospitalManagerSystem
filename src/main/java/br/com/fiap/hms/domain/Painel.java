@@ -1,12 +1,14 @@
 package br.com.fiap.hms.domain;
 
 import java.util.Calendar;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -23,26 +25,35 @@ public class Painel {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "painel")
 	private int codigoPainel;
 	
+	@ManyToMany(mappedBy = "painel")
+	private List<Totem> totem;
+	
 	@Column(name="ds_painel")
 	private String painel;
 	
 	@Column(name="dt_chamada_snh")
 	private Calendar dataChamadaSenha;
-	
-	public Painel() {
-		// TODO Auto-generated constructor stub
-	}
 
 	/**
 	 * @param codigoPainel
+	 * @param totem
 	 * @param painel
 	 * @param dataChamadaSenha
 	 */
-	public Painel(int codigoPainel, String painel, Calendar dataChamadaSenha) {
+	public Painel(int codigoPainel, List<Totem> totem, String painel, Calendar dataChamadaSenha) {
 		super();
 		this.codigoPainel = codigoPainel;
+		this.totem = totem;
 		this.painel = painel;
 		this.dataChamadaSenha = dataChamadaSenha;
+	}
+
+	/**
+	 * 
+	 */
+	public Painel() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -57,6 +68,20 @@ public class Painel {
 	 */
 	public void setCodigoPainel(int codigoPainel) {
 		this.codigoPainel = codigoPainel;
+	}
+
+	/**
+	 * @return the totem
+	 */
+	public List<Totem> getTotem() {
+		return totem;
+	}
+
+	/**
+	 * @param totem the totem to set
+	 */
+	public void setTotem(List<Totem> totem) {
+		this.totem = totem;
 	}
 
 	/**
@@ -86,5 +111,5 @@ public class Painel {
 	public void setDataChamadaSenha(Calendar dataChamadaSenha) {
 		this.dataChamadaSenha = dataChamadaSenha;
 	}
-
+	
 }

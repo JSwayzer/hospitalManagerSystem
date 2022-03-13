@@ -1,10 +1,13 @@
 package br.com.fiap.hms.domain;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -23,6 +26,9 @@ public class Unidade {
 	@SequenceGenerator(name = "unidade", sequenceName = "sq_tb_und", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "unidade")
 	private int codigo;
+	
+	@OneToMany(mappedBy = "unidade")
+	private List<Totem> totens;
 
 	@Column(name="nm_und",nullable=false,length=150)
 	private String nome;
@@ -41,22 +47,25 @@ public class Unidade {
 
 	/**
 	 * @param codigo
+	 * @param totens
 	 * @param nome
 	 * @param cpnj
 	 * @param endereco
 	 * @param numeroEndereco
 	 * @param telefone
 	 */
-	public Unidade(int codigo, String nome, int cpnj, String endereco, String numeroEndereco, String telefone) {
+	public Unidade(int codigo, List<Totem> totens, String nome, int cpnj, String endereco, String numeroEndereco,
+			String telefone) {
 		super();
 		this.codigo = codigo;
+		this.totens = totens;
 		this.nome = nome;
 		this.cpnj = cpnj;
 		this.endereco = endereco;
 		this.numeroEndereco = numeroEndereco;
 		this.telefone = telefone;
 	}
-	
+
 	/**
 	 * 
 	 */
@@ -77,6 +86,20 @@ public class Unidade {
 	 */
 	public void setCodigo(int codigo) {
 		this.codigo = codigo;
+	}
+
+	/**
+	 * @return the totens
+	 */
+	public List<Totem> getTotens() {
+		return totens;
+	}
+
+	/**
+	 * @param totens the totens to set
+	 */
+	public void setTotens(List<Totem> totens) {
+		this.totens = totens;
 	}
 
 	/**
