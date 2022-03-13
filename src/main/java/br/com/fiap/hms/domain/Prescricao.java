@@ -24,16 +24,16 @@ public class Prescricao {
 	@Column(name="id_prc")
 	private int codigoPrescricao;
 	
-	@Column(name="dt_prc")
+	@Column(name="dt_prc",nullable=false)
 	private Calendar dataPrescricao;
 	
-	@Column(name="ds_via")
+	@Column(name="ds_via",nullable=false,length=50)
 	private String via;
 	
-	@Column(name="ds_dose")
+	@Column(name="ds_dose",length=50)
 	private String dose;
 	
-	@Column(name="ob_observaco")
+	@Column(name="ob_observaco",length=255)
 	private String observacao;
 	
 	public Prescricao() {
