@@ -33,8 +33,8 @@ public class Unidade {
 	@Column(name="nm_und",nullable=false,length=150)
 	private String nome;
 	
-	@Column(name="nr_cnpj",nullable=false,length=14)
-	private int cpnj;
+	@Column(name="nr_cnpj",nullable=false)
+	private long cpnj;
 	
 	@Column(name="ds_endereco",nullable=false,length=150)
 	private String endereco;
@@ -119,7 +119,7 @@ public class Unidade {
 	/**
 	 * @return the cpnj
 	 */
-	public int getCpnj() {
+	public long getCpnj() {
 		return cpnj;
 	}
 

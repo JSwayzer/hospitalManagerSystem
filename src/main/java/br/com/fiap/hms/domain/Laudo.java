@@ -27,7 +27,7 @@ public class Laudo {
 	@Column(name="id_laudo")
 	private int codigoLaudo;
 	
-	@JoinColumn(name = "id_laudo")
+	@JoinColumn(name = "id_exm_real")
 	@ManyToOne
 	private ExameRealizado exameRealizadoLaudo;
 	
